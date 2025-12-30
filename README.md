@@ -1,6 +1,3 @@
-Here's the formatted version ready to copy directly into your VSCode as a `README.md` file:
-
-```markdown
 # Notes Dashboard System
 
 ## Overview
@@ -57,5 +54,3 @@ All items are managed under **Git** and **GitHub**.
 ## Project Status
 **Baseline 1 (BL1) has been established.**  
 Currently, the repository contains approved SCM documentation and the initial repository structure. Functional components will be introduced in subsequent baselines through approved change requests.
-```
-
