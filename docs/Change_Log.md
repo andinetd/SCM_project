@@ -1,11 +1,11 @@
 # Change Log
 **Project:** Notes Dashboard System
 **Maintainer:** Abenezer Mulugeta Woldesenbet (Change Control Coordinator)
-**Version:** v1.0
+**Version:** v1.1
 
 | CR ID | Date | Title | Requestor | Priority | Status | Assigned To |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-
+| CR-001 | 2025-12-30 | Create Login Page | Abenezer Mulugeta | Medium | Approved | Abigail Fuad |
 
 ## Status Definitions
 * **Pending:** Request submitted but not yet reviewed.
