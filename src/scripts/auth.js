@@ -27,6 +27,13 @@
     submitBtn.textContent = isSubmitting ? "Signing in…" : "Sign in";
   }
 
+  // If a session already exists, skip the form.
+  const existingUser = sessionStorage.getItem("notesUser");
+  if (existingUser === DEMO_USER) {
+    window.location.href = "./dashboard.html";
+    return;
+  }
+
   form.addEventListener("input", () => {
     clearError();
   });
