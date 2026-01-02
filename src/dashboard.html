@@ -7,24 +7,70 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Notes Dashboard</h1>
+    <header class="page-header">
+      <div>
+        <p class="badge">CR-002</p>
+        <h1>Notes Dashboard</h1>
+        <p class="text-muted">Add, edit, and organize your notes by topic.</p>
+      </div>
       <nav>
         <a href="login.html">Logout</a>
       </nav>
     </header>
-    <main>
-      <section id="notes-section">
-        <h2>Your Notes</h2>
-        <ul id="notes-list"></ul>
-        <form id="add-note-form">
-          <textarea
-            id="note-input"
-            placeholder="Write a new note..."
-            required
-          ></textarea>
-          <button type="submit">Add Note</button>
+    <main class="dashboard-shell">
+      <section class="card note-form-card">
+        <h2>Add a Note</h2>
+        <form id="note-form" class="note-form">
+          <div class="form-grid">
+            <label>
+              Title
+              <input
+                id="note-title"
+                name="title"
+                type="text"
+                placeholder="e.g., Sprint retro"
+                required
+              />
+            </label>
+            <label>
+              Topic
+              <input
+                id="note-topic"
+                name="topic"
+                type="text"
+                placeholder="e.g., Planning, Ideas, TODO"
+              />
+            </label>
+          </div>
+          <label>
+            Content
+            <textarea
+              id="note-content"
+              name="content"
+              placeholder="Capture your note details"
+              required
+            ></textarea>
+          </label>
+          <div class="actions">
+            <button type="submit" class="btn" id="save-note-btn">
+              Save note
+            </button>
+            <button type="button" class="btn ghost" id="cancel-edit-btn" hidden>
+              Cancel edit
+            </button>
+          </div>
         </form>
+      </section>
+
+      <section class="card note-list-card">
+        <div class="note-list-header">
+          <h2>Your Notes</h2>
+          <p class="text-muted" id="note-count"></p>
+        </div>
+        <div id="notes-empty" class="empty-state">
+          No notes yet. Add your first note above.
+        </div>
+        <ul id="notes-list" class="notes-grid"></ul>
       </section>
     </main>
     <script src="scripts/dashboard.js"></script>
