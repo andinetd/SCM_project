@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes Dashboard | Login</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./scripts/auth.js"></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="auth-shell card">
+        <header class="auth-header">
+          <h1>Sign in to Notes Dashboard</h1>
+          <div class="auth-meta">
+            <span class="badge">CR-001</span>
+            <span>Baseline 2 development</span>
+          </div>
+        </header>
+
+        <div
+          id="loginError"
+          class="error-box"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        ></div>
+
+        <form id="loginForm" class="form-grid" novalidate>
+          <label>
+            Username
+            <input
+              id="username"
+              name="username"
+              type="text"
+              placeholder="demo"
+              autocomplete="username"
+              required
+            />
+          </label>
+          <label>
+            Password
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="notes123"
+              autocomplete="current-password"
+              required
+            />
+          </label>
+          <button type="submit" class="btn">Sign in</button>
+        </form>
+
+        <p class="helper-text">
+          Use demo credentials: username "demo" and password "notes123". We only
+          keep a simple session in your browser for this demo.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
