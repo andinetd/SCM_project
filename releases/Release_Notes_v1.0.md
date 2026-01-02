@@ -1,28 +1,28 @@
 # Release Notes v1.0 - Baseline 2 (BL2)
 
 ## 📌 Project Information
-* [cite_start]**Project Title:** Notes Dashboard System [cite: 4]
-* [cite_start]**Release Version:** v1.0 [cite: 79]
-* [cite_start]**Associated Baseline:** BL2 [cite: 72]
-* [cite_start]**Release Manager:** Abenezer Workineh [cite: 29]
+* **Project Title:** Notes Dashboard System
+* **Release Version:** v1.0
+* **Associated Baseline:** BL2
+* **Release Manager:** Abenezer Workineh
 * **Date:** January 2, 2026
 
 ---
 
 ## 📝 Overview
-[cite_start]This release represents the first official working version of the system[cite: 80]. [cite_start]It includes the functional prototype and transitions the project from planning to implementation[cite: 73].
+This release represents the first official working version of the Notes Dashboard System. It marks the transition from the initial documentation phase to a functional prototype phase.
 
 ---
 
 ## 🚀 Features in this Release
-* [cite_start]**Authentication Page:** Simple login page for user access[cite: 11].
-* [cite_start]**Service Dashboard:** Main dashboard interface for navigating features[cite: 12].
-* [cite_start]**Notes Functionality:** Core action allowing for simple notes management[cite: 12].
-* [cite_start]**Data Storage:** Integration of a JSON file for data persistence[cite: 13].
+* **Authentication Page:** A functional login page for system access.
+* **Service Dashboard:** A main dashboard interface used for navigating the system.
+* **Notes Functionality:** Core action that allows users to add and view text notes.
+* **Data Persistence:** Integration of a JSON file for basic data storage.
 
 ---
 
-## [cite_start]📂 Configuration Items (CIs) Included [cite: 39]
+## 📂 Configuration Items (CIs) Included
 | CI Name | Version | Category | Owner |
 | :--- | :--- | :--- | :--- |
 | Login Page (HTML/JS) | v1.0 | Source Code | Abigail Fuad |
@@ -35,6 +35,6 @@
 ---
 
 ## 🛠 SCM & Environment Details
-* [cite_start]**Repository Structure:** Includes `/docs`, `/src`, `/tests`, and `/releases`[cite: 54].
-* [cite_start]**Version Control:** Managed via Git/GitHub[cite: 20].
-* [cite_start]**Baseline Status:** Formally tagged as **BL2**[cite: 75].
+* **Repository Structure:** Properly organized into /docs, /src, /tests, and /releases.
+* **Version Control:** Managed via Git/GitHub with formal branching and merging.
+* **Baseline Status:** Formally tagged as **BL2** in the repository.
