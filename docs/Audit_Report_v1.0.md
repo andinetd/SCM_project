@@ -1,13 +1,5 @@
 # Configuration Audit Report: Notes Dashboard System
 
-**Project Name:** Notes Dashboard System  
-**Document Version:** v1.0  
-**Audit Date:** January 2, 2026  
-**Auditor:** Abenezer Mulugeta Asres  
-**Release Manager:** Abenezer Workineh  
-
----
-
 ## 1. Introduction
 This report documents the findings of the Physical Configuration Audit (PCA) and Functional Configuration Audit (FCA) for the Notes Dashboard System project. This audit fulfills the requirements of **Deliverable 6** by verifying that the project adheres to the Software Configuration Management Plan (SCMP) and that all functional requirements have been met.
 
